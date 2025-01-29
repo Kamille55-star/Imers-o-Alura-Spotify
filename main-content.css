@@ -61,14 +61,16 @@
 }
 
 .header__search input {
-    background: transparent;
-    border: none;
+    background: #ff9100;
+    border-radius: 40%;
     padding: 0px 100px 0 12px;
     color: #070707;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     outline: none;
+    width: 200px;
+    height: 40px;
 }
 
 .header__login .subscribe{
