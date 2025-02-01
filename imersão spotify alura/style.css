@@ -1,0 +1,224 @@
+body{
+    background-color: #fae100;
+    font-family: var(--font-dm-sans);
+}
+
+.sidebar{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    padding:12px;
+    width:300px;
+    height: 55%;
+}
+
+.sidebar__navigation{
+    background-color: #ffbe0dc2;
+    border-radius:8px;
+    padding:10px 0 0 20px;
+}
+
+.sidebar__navigation a {
+    color: #000000; 
+    text-decoration: none;
+}
+
+.logo{
+    background: #ffb41200;
+    display:flex;
+    border-radius:8px ;
+    padding:10px 0 0 20px;
+}
+
+.sidebar__navigation .logo img{
+    width: 200px;
+}
+
+.sidebar nav ul{
+    padding:0 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.library{
+    background-color:#ffbe0dc2;
+    border-radius:8px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding:4px 8px;
+    color:#000000;
+    font-weight: 600;
+    font-size:14px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: none;
+    height: 83%;
+}
+
+.library .library__content{
+    display:flex;
+    justify-content: space-between;
+    text-decoration: none;
+    text-transform: none;
+    background-color: transparent;
+    color:#000
+}
+.library .library__button a{
+    display:flex;
+    margin-right: 10px;
+    color:#000;
+    background-color: transparent;
+    border:0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    cursor:pointer;
+}
+.library .library__button {
+    display: flex;
+    margin-right: 10px;
+    color: #000;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+.library .library__content .fa-plus{
+    margin: 24px 10px;
+    cursor: pointer;
+    color: #000;
+}
+.playlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5px;
+    background-color: #ffffff00;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 4px 6px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.playlist .playlist__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist__content .text {
+    padding-bottom: 14px;
+    color: #000;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.playlist__content .title { 
+    font-weight: 700;
+}
+
+.playlist__content .subtitle{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.playlist__content .playlist__button{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    width: 113px;
+    margin-top: 12px;
+    cursor:pointer;
+}
+
+.sidebar .cookies {
+    margin: 10px 5px;
+}
+
+.sidebar .cookies a{
+    color: #000;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.languages .languages__button {
+    display: flex;
+    align-items: flex-start;
+    background-color: transparent;
+    border: 1px solid #000;
+    font: bold;
+    color: #000;
+    cursor: pointer;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+footer {
+    background-image: linear-gradient(to right, #ff0000, #ffae00);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    height: 7%;
+}
+
+.footer__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__button {
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+}
+
+footer button {
+    border: solid #ffffff .2em;
+    border-radius: 2em;
+    padding: .5em 1em .5em 1em;
+    font-weight: 800;
+    font-size: 1em;
+}
